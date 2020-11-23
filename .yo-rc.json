@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "it.thunkabout.demo"
+    },
+    "jhipsterVersion": "6.10.4",
+    "applicationType": "monolith",
+    "baseName": "SpringBootAngular",
+    "packageName": "it.thunkabout.demo",
+    "packageFolder": "it/thunkabout/demo",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mariadb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "MTI3MzFhNDA5MTVlYWNjYjE2ZGE2MTQxMjcxZWYzNGYzYjE0NWFlNjQ1NDA1MWJjM2I3MGExMDhlODYzMmM3YzUxNTNkOTkzZjQ3MTg0M2M1OTNhNWEyODdmZDVlNWJhZDI1OTRjZmNlYWJkMzE1M2VmMTQ1Y2I0Y2FmYmFmODQ=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1606094126059,
+    "testFrameworks": ["cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}

@@ -1,0 +1,16 @@
+version: '2'
+services:
+  springbootangular-app:
+    image: springbootangular
+    environment:
+      - _JAVA_OPTIONS=-Xmx512m -Xms256m
+      - SPRING_PROFILES_ACTIVE=prod,swagger
+      - MANAGEMENT_METRICS_EXPORT_PROMETHEUS_ENABLED=true
+      - SPRING_DATASOURCE_URL=jdbc:mariadb://springbootangular-mariadb:3306/springbootangular?useLegacyDatetimeCode=false&serverTimezone=UTC
+      - JHIPSTER_SLEEP=120 # gives time for mariadb server to start
+    ports:
+      - 8080:8080
+  springbootangular-mariadb:
+    extends:
+      file: mariadb.yml
+      service: springbootangular-mariadb
